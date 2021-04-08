@@ -1,4 +1,4 @@
 #!/bin/bash
 
 bash dl_video.sh
-python lfy_up.py
+python user_up.py
