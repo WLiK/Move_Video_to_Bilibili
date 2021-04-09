@@ -29,9 +29,16 @@
    bash auto_mv_video.sh
    ```
 
-6. 将auto_mv_video.sh设置为定时任务即可每天自动搬运。例如基于linux的系统(ubuntu, macOS等)可设置crontab任务.
+6. 在user_up.py中设置你的b站用户id和密码.
+   
+   ```
+   user_id = 'XXX'
+   user_passwd = 'XXX'
+   ```
 
-7. 另外，视频防撞车可调用user_up.py中的fileadd_begin_end函数给上传视频添加片头片尾.
+7. 将auto_mv_video.sh设置为定时任务即可每天自动搬运。例如基于linux的系统(ubuntu, macOS等)可设置crontab任务.
+
+8. 另外，视频防撞车可调用user_up.py中的fileadd_begin_end函数给上传视频添加片头片尾.
 
 Good Luck.
 
